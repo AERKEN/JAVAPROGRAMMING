@@ -2,9 +2,10 @@ package day38_Inheritance.carTask;
 
 public class Tesla extends Car {
 
-    public Tesla(String brand, String model, String color, int year, double price, double miles) {
+    public Tesla( String model, String color, int year, double price, double miles) {
         super("Tesla", model, color, year, price, miles);
     }
+
 
 
     public void autoPilot(){
@@ -12,8 +13,13 @@ public class Tesla extends Car {
 
     }
 
+    @Override
+    public void start() {
+        System.out.println("Say start to " );
+    }
 
-
-
-
+    @Override
+    public void drive() {
+        super.drive();
+    }
 }

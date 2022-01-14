@@ -1,6 +1,6 @@
 package ReplitBasic;
 
-public class Dimond3 {
+public class Diamond3 {
     public static void main(String[] args) {
         System.out.println("      *");
 

@@ -1,6 +1,6 @@
 package ReplitBasic;
 
-public class Cencatenation {
+public class Concatenation {
     public static void main(String[] args) {
         String topic1 = "java";
         String topic2 = "SQL";

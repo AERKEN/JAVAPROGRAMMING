@@ -1,3 +1,5 @@
+package ReplitBasic;
+
 import java.util.Scanner;
 
 public class VendingMachine {

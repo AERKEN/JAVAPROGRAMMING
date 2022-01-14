@@ -23,6 +23,15 @@ public class ReverseArrayAndArrayList {
 
         System.out.println("________________________________________");
 
+
+
+
+
+
+
+
+
+
         ArrayList<Integer> list=new ArrayList<>();
         list.addAll(Arrays.asList(1,2,3,4,5,6));
 
@@ -30,9 +39,7 @@ public class ReverseArrayAndArrayList {
 
         for (int i = list.size() - 1; i >= 0; i--) {
 
-            int each= list.get(i);
-
-            reverseList.add(each);
+            reverseList.add(list.get(i));
 
         }
         System.out.println(reverseList);
